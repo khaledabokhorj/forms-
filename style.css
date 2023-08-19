@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #deb1e3;
+  font-family: sans-serif;
+}
+.container {
+  width: 1000px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  width: 390px;
+  height: 580px;
+  border-radius: 6px 0px 0px 6px;
+  margin-top: 3px;
+  }
+.forms {
+  background-color: black;
+  color: white;
+  height: 580px;
+  width: 390px;
+  text-align: center;
+}
+.forms h2 {
+  margin-bottom: 40px;
+  padding: 50px;
+  font-weight: normal;
+}
+.forms form input {
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+  width: 300px;
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid #eee;
+  color: white;
+  outline: none;
+  font-size: 17px;
+}
+.forms form input::placeholder {
+  color: #918472;
+  font-size: 17px;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.info i {
+  position: absolute;
+  right: 47px;
+  top: -7px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.forms form .submit {
+  background-color: #57b846;
+
+  display: block;
+  width: fit-content;
+  padding: 12px 40px;
+  border-radius: 20px;
+  margin-left: 60px;
+  font-size: 18px; 
+  font-weight: normal;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.forms form .submit:hover {
+  background-color: #57b846d1;
+}
+.gender {
+  width: 300px;
+  height: 108px;
+  background-color: white;
+  color: black;
+  position: relative;
+  left: 44px;
+  top: -244px;
+  text-align: left;
+  display: none;
+}
+.gender span {
+  display: block;
+  width: 290px;
+  background-color: blue;
+  margin-bottom: 5px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
